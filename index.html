@@ -1,0 +1,497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.77">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh-CN"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;灰灰❤️笨笨 天长地久&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&amp;family=ZCOOL+QingKe+HuangYou&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Ma Shan Zheng', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #ffd6e7 0%, #ffe4f2 30%, #f8c8dc 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #8b0055;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 背景装饰图案 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-heart {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 120px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: rgba(255, 182, 193, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: -1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: gentleFloat 20s infinite linear;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes gentleFloat {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0% { transform: translateY(0px) rotate(0deg); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>50% { transform: translateY(-30px) rotate(10deg); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>100% { transform: translateY(0px) rotate(0deg); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 900px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(255, 255, 255, 0.85);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 50px rgba(255, 105, 180, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 182, 193, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 4.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff66a3;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 3px 3px 0px rgba(255, 182, 193, 0.4);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.title span.heart {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff3385;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: heartbeat 2s infinite;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes heartbeat {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0%, 100% { transform: scale(1); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>5% { transform: scale(1.1); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>10% { transform: scale(1); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>15% { transform: scale(1.15); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>20% { transform: scale(1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #cc6699;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.love-message {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.6rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #b3477c;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 40px auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to right, rgba(255, 240, 245, 0.9), rgba(255, 250, 252, 0.9));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 700px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 8px 20px rgba(255, 182, 193, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left: 8px solid #ff99c2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.love-message:before, .love-message:after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: "❀";</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff66a3;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.love-message:before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.love-message:after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: -10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 主要心形展示区域 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.heart-display {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 40px auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.main-heart {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.heart-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 180px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff99c2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: drop-shadow(0 0 20px rgba(255, 105, 180, 0.4));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.heart-icon.lit {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff3385;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: drop-shadow(0 0 30px rgba(255, 51, 133, 0.7));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: glow 2s infinite alternate;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes glow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>from { filter: drop-shadow(0 0 20px rgba(255, 51, 133, 0.7)); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { filter: drop-shadow(0 0 30px rgba(255, 51, 133, 1)); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.heart-glow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: radial-gradient(circle, rgba(255, 182, 193, 0.3) 0%, rgba(255, 255, 255, 0) 70%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.8s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.heart-glow.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 按钮样式 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.action-button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to right, #ff99c2, #ff66a3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 18px 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 30px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 20px rgba(255, 105, 180, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Ma Shan Zheng', cursive;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.action-button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 15px 25px rgba(255, 105, 180, 0.4);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.action-button:active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(0);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.action-button:after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: "";</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: -60%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 200%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: rotate(30deg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.5s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.action-button:hover:after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 120%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 装饰元素 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.decoration {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 40px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.decoration-item {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ff99c2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: bounce 3s infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes bounce {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0%, 100% { transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>50% { transform: translateY(-15px); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #cc6699;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 星星装饰 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stars {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: -1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.star {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: twinkle 3s infinite;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes twinkle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0%, 100% { opacity: 0.2; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>50% { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 响应式设计 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.title {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 2.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.love-message {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>margin: 30px 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.heart-display {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>width: 250px;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>height: 250px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.heart-icon {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 140px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.action-button {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding: 15px 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 背景装饰心形 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-heart" style="top:10%; left:5%;"&gt;❤&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-heart" style="top:15%; right:8%; animation-delay: -5s;"&gt;❥&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-heart" style="bottom:20%; left:10%; animation-delay: -10s;"&gt;♥&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-heart" style="bottom:15%; right:5%; animation-delay: -15s;"&gt;❣&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 星星背景 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="stars" id="stars"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="title"&gt;灰灰&lt;span class="heart"&gt;❤️&lt;/span&gt;笨笨&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="subtitle"&gt;天长地久 · 永永远远&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="heart-display"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="heart-glow" id="heartGlow"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="main-heart"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="heart-icon" id="mainHeart"&gt;♥&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="action-button" id="lightButton"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;i class="fas fa-sparkles"&gt;&lt;/i&gt; 点亮我们的祝福 &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="love-message"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>「从相遇的那刻起，我的世界便充满了粉色的泡泡。&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>灰灰与笨笨，这两个可爱的名字将紧紧相连，&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>像星星陪伴月亮，像微风依恋花香。&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>愿时光温柔，许我们天长地久的童话。」</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="decoration"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="decoration-item"&gt;✦&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="decoration-item"&gt;❀&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="decoration-item"&gt;✿&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="decoration-item"&gt;♡&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="decoration-item"&gt;✧&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;这份浪漫，专属于灰灰和笨笨&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;❤️ 愿每时每刻都甜蜜如初 ❤️&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 创建星星背景</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createStars() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const starsContainer = document.getElementById('stars');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const starCount = 80;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>for (let i = 0; i &lt; starCount; i++) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const star = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.classList.add('star');</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 随机大小和位置</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const size = Math.random() * 3 + 1;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.style.width = `${size}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.style.height = `${size}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.style.left = `${Math.random() * 100}vw`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.style.top = `${Math.random() * 100}vh`;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 随机动画延迟</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.style.animationDelay = `${Math.random() * 3}s`;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 随机颜色</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const colors = ['#ffcce6', '#ff99c2', '#ff66a3', '#ffffff'];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>star.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>starsContainer.appendChild(star);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 点亮爱心的交互</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const lightButton = document.getElementById('lightButton');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const mainHeart = document.getElementById('mainHeart');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const heartGlow = document.getElementById('heartGlow');</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>let isLit = false;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>lightButton.addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (!isLit) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 点亮状态</p>
+<p class="p1"><span class="Apple-converted-space">                </span>mainHeart.classList.add('lit');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heartGlow.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lightButton.innerHTML = '&lt;i class="fas fa-heart"&gt;&lt;/i&gt; 祝福已点亮！ &lt;i class="fas fa-heart"&gt;&lt;/i&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lightButton.style.background = 'linear-gradient(to right, #ff66a3, #ff3385)';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 创建爱心特效</p>
+<p class="p1"><span class="Apple-converted-space">                </span>createHearts();</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 改变页面标题</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.title = "❤️ 灰灰爱笨笨 ❤️";</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>isLit = true;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 显示祝福消息</p>
+<p class="p1"><span class="Apple-converted-space">                </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>alert('✨ 祝福点亮成功！\n\n灰灰与笨笨的爱意已被星光见证，\n愿你们永远幸福甜蜜！ ✨');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}, 300);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 再次点击可恢复初始状态</p>
+<p class="p1"><span class="Apple-converted-space">                </span>mainHeart.classList.remove('lit');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heartGlow.classList.remove('active');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lightButton.innerHTML = '&lt;i class="fas fa-sparkles"&gt;&lt;/i&gt; 再次点亮祝福 &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lightButton.style.background = 'linear-gradient(to right, #ff99c2, #ff66a3)';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.title = "灰灰❤️笨笨 天长地久";</p>
+<p class="p1"><span class="Apple-converted-space">                </span>isLit = false;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 按钮动画</p>
+<p class="p1"><span class="Apple-converted-space">            </span>this.style.transform = 'scale(0.95)';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>this.style.transform = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 150);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 创建漂浮爱心特效</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createHearts() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const colors = ['#ff66a3', '#ff3385', '#ff99c2', '#ffcce6'];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const heartContainer = document.querySelector('.heart-display');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>for (let i = 0; i &lt; 15; i++) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const heart = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.innerHTML = '♥';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.position = 'absolute';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.color = colors[Math.floor(Math.random() * colors.length)];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.fontSize = `${Math.random() * 20 + 15}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.left = '50%';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.top = '50%';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.opacity = '0.8';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.zIndex = '5';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.pointerEvents = 'none';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>heart.style.transform = 'translate(-50%, -50%)';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>heartContainer.appendChild(heart);</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 随机漂浮动画</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const animation = heart.animate([</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ transform: 'translate(-50%, -50%) scale(1)', opacity: 0.8 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ transform: `translate(${Math.random() * 100 - 50}px, ${Math.random() * -100 - 50}px) scale(1.5)`, opacity: 0 }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>], {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>duration: Math.random() * 1000 + 1500,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>easing: 'cubic-bezier(0.215, 0.610, 0.355, 1)'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 动画结束后移除元素</p>
+<p class="p1"><span class="Apple-converted-space">                </span>animation.onfinish = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>heart.remove();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 初始化</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>createStars();</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 添加一些初始动画</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.querySelector('.title').style.opacity = 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 300);</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 心形自动轻微脉动</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setInterval(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (!isLit) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>mainHeart.style.transform = 'scale(1.05)';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>setTimeout(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>mainHeart.style.transform = 'scale(1)';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}, 300);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 3000);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
